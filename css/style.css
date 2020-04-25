@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(../images/bg-header-desktop.png);
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 5px 9px;
+}
+
+.btn_mac {
+  background-color: hsl(233, 100%, 69%);
+  color: #fff;
+}
+
+.btn_ios {
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+
+
