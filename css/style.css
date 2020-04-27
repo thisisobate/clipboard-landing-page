@@ -73,7 +73,6 @@ header {
 
 .image_devices {
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .flex2 {
@@ -82,7 +81,6 @@ header {
 }
 
 .box {
-  border: 2px solid red;
   text-align: center;
   width: 25%;
   height: 300px;
@@ -100,7 +98,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 2px solid red;
   align-items: center;
 }
 
