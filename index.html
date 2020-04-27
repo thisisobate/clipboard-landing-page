@@ -11,6 +11,10 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Frontend Mentor | Clipboard landing page</title>
@@ -39,8 +43,10 @@
         Instantly access your clipboard on all your devices.
       </p>
 
-      <a href="#" class="btn btn_ios">Download for iOS</a>
-      <a href="#" class="btn btn_mac">Download for Mac</a>
+      <div class="btn_container">
+        <a href="#" class="btn btn_ios">Download for iOS</a>
+        <a href="#" class="btn btn_mac">Download for Mac</a>
+      </div>
     </header>
 
     <section>
@@ -55,7 +61,11 @@
 
       <div class="flex">
         <div class="left">
-          <img src="images/image-computer.png" alt="image-computer" />
+          <img
+            src="images/image-computer.png"
+            alt="image-computer"
+            class="image_computer"
+          />
         </div>
         <div class="right">
           <div class="paragraph1">
@@ -92,7 +102,11 @@
       </div>
 
       <div class="image_devices">
-        <img src="images/image-devices.png" alt="image-devices" />
+        <img
+          src="images/image-devices.png"
+          alt="image-devices"
+          class="image_computer"
+        />
       </div>
     </section>
 
@@ -161,8 +175,10 @@
           with iCloud and you’re ready to start adding to your clipboard.
         </p>
 
-        <a href="#" class="btn btn_ios">Download for iOS</a>
-        <a href="#" class="btn btn_mac">Download for Mac</a>
+        <div class="btn_container">
+          <a href="#" class="btn btn_ios">Download for iOS</a>
+          <a href="#" class="btn btn_mac">Download for Mac</a>
+        </div>
       </div>
     </section>
 
@@ -174,17 +190,33 @@
 
         <nav class="nav1">
           <div class=""><a href="#" class="link">FAQs</a></div>
-          <div class=""><a href="#" class="link">Contact Us</a></div>
+          <div class="second_link"><a href="#" class="link">Contact Us</a></div>
         </nav>
 
         <nav class="nav2">
-          <div class=""><a href="#" class="link">Privacy Policy</a></div>
-          <div class=""><a href="#" class="link">Press Kit</a></div>
+          <div class="">
+            <a href="#" class="link">Privacy Policy</a>
+          </div>
+          <div class="second_link"><a href="#" class="link">Press Kit</a></div>
         </nav>
 
         <nav class="nav3">
-          <div class=""><a href="#" class="link">Install Guide</a></div>
+          <div class="first_link">
+            <a href="#" class="link">Install Guide</a>
+          </div>
         </nav>
+
+        <div class="social_icons">
+          <a href="#"
+            ><img src="images/icon-facebook.svg" alt="icon-facebook"
+          /></a>
+          <a href="#"
+            ><img src="images/icon-twitter.svg" alt="icon-twitter"
+          /></a>
+          <a href="#"
+            ><img src="images/icon-instagram.svg" alt="icon-instagram"
+          /></a>
+        </div>
       </div>
 
       <p class="attribution">
