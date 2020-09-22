@@ -6,4 +6,4 @@
 
 Thanks for checking out this front-end coding project.
 
-Link to [live](clipboard-landing-page-cyan.now.sh)
+Link to [live](https://clipboard-landing-page-cyan.now.sh)
